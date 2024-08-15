@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(22, 1, 29);
+    color: rgb(171, 152, 249);
+    font-family: sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(35, 9, 60);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 34px;
+    padding-left: 80px;
+    margin-top: 22px;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(153, 97, 205);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+    font-family: cursive;
+    font-weight: 1200;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 169px;
+}
+
+.leftsection {
+    width: 35%;
+    height: auto;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    justify-content: center;
+}
+
+.rightsection {
+    width: 30px;
+    margin-right: 300px;
+    margin-bottom: 62px;
+
+}
+
+.rightsection img {
+    width: 500%;
+    border: 2px solid rgb(158, 76, 196);
+    border-radius: 5px;
+
+}
+
+.tagname {
+    padding-left: 90px;
+    width: 100px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(55, 55, 184);
+}
+
+.purpal {
+    color: rgb(127, 16, 231);
+    font-weight: bold;
+}
+
+.right {
+    margin-bottom: 20px;
+}
+
+.right ul li a {
+    color: rgb(171, 152, 249);
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+.right ul li a:hover {
+    transition: 0.4s ease-in-out;
+    color: blueviolet;
+    font-size: 1.23rem;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection .box {
+    background-color: azure;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    width: 1px;
+    height: 93px;
+    background-color: white;
+    margin: 0 143px;
+    margin-left: 138px;
+}
+
+.vertical .f1 {
+    color: rgb(227, 175, 234);
+    font-weight: bold;
+}
+
+.vertical .f2 {
+    color: rgb(227, 175, 234);
+    font-weight: bold;
+}
+
+.vertical .f3 {
+    color: rgb(227, 175, 234);
+    font-weight: bold;
+}
+
+.vertical .f4 {
+    color: rgb(227, 175, 234);
+    font-weight: bold;
+}
+
+.vertical .f5 {
+    color: rgb(227, 175, 234);
+    font-weight: bold;
+}
+
+.vertical h3 {
+    width: 10rem;
+    margin-top: 100px;
+}
+
+.thirdsection {
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 3px;
+    margin-right: 20px;
+}
+
+.thirdsection .icon a {
+    font-size: x-large;
+    color: rgb(189, 164, 204);
+    margin-bottom: 90px;
+
+}
+
+footer {
+    background-color: rgb(23, 16, 46);
+    
+}
+
+.footer {
+    display: flex;
+    padding: 27px 132px;
+    color: aliceblue;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none
+}
+.footer ul li{
+    cursor: pointer;
+    margin-right:40px ;
+}
+.footer-right{
+ text-align: center;
+ padding-bottom: 23px;
+}
+#element .btn{
+    background-color:rgb(253, 253, 255);
+    color: rgb(15, 11,50);
+    padding: 9px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+
+}
+#element .btn1{
+    background-color:rgb(15, 11, 50);
+    color: rgb(246, 243, 250);
+    padding: 9px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+#element .button{
+    padding-top: 30px;
+    
+}
+
